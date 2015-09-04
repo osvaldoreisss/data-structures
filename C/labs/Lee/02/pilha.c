@@ -2,36 +2,34 @@
 #include <stdio.h>
 #include "pilha.h"
 
-int TOP;
-int STACK;
-
-// Function that creates a new stack
-void createStack(int n)
+//Function that creates a new stack
+int* createStack()
 {
-	STACK = malloc(n * sizeof(int));
-	TOP = 0;
+	return malloc(sizeof(int));
 }
 
-// Function that returns if a stack is empty
-int isEmpty()
+//Function that returns if a stack is empty
+int isEmpty(int top)
 {
-	return !TOP;
+	return top == -1;
 }
 
-// Function that add an item to the stack
-void instack(int data)
+//Function that add an item to the stack
+void instack(int* stack, int data, int* top)
 {
-	
-	STACK[(*TOP)++] = data;
+	(*top)++;
+	stack[(*top)] = data;
 }
 
 
-// Function that removes an item from the stack
-int unstack()
+//Function that removes an item from the stack
+int unstack(int* stack, int* top)
 {
 	if (!isEmpty(*top))
 	{
-		return STACK[--(*top)];
+		int item = stack[(*top)];
+		(*top)--;
+		return item;
 	}
 	else
 	{
