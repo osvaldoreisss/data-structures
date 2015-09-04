@@ -22,7 +22,7 @@ int isEmpty()
 void instack(int data)
 {
 	
-	STACK[(*TOP)++;] = data;
+	STACK[(*TOP)++] = data;
 }
 
 

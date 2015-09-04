@@ -8,9 +8,9 @@ void createStack(int n);
 int isEmpty();
 
 // Function that add an item to the stack
-void instack(int* stack, int data, int* topo);
+void instack(int data);
 
 // Function that removes an item from the stack
-int unstack(int* stack, int* topo);
+int unstack();
 
 #endif
