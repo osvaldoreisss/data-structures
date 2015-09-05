@@ -3,22 +3,22 @@
 #include "pilha.h"
 
 //Function that creates a new stack
-int* createStack()
+int* createStack(int size)
 {
-	return malloc(sizeof(int));
+	return malloc(size * sizeof(int));
 }
 
 //Function that returns if a stack is empty
 int isEmpty(int top)
 {
-	return top == -1;
+	return !top;
 }
 
 //Function that add an item to the stack
 void instack(int* stack, int data, int* top)
 {
-	(*top)++;
 	stack[(*top)] = data;
+	(*top)++;
 }
 
 
@@ -27,8 +27,8 @@ int unstack(int* stack, int* top)
 {
 	if (!isEmpty(*top))
 	{
-		int item = stack[(*top)];
 		(*top)--;
+		int item = stack[(*top)];
 		return item;
 	}
 	else
@@ -37,3 +37,7 @@ int unstack(int* stack, int* top)
 	}
 }
 
+int top(int *stack, int top)
+{
+	return stack[top - 1];
+}
