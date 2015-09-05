@@ -3,7 +3,7 @@
 #include "pilha.h"
 
 //Function that creates a new stack
-int* createStack(int size)
+int* newStack(int size)
 {
 	return malloc(size * sizeof(int));
 }
@@ -37,6 +37,7 @@ int unstack(int* stack, int* top)
 	}
 }
 
+// Function that reads the top of the stack
 int top(int *stack, int top)
 {
 	return stack[top - 1];

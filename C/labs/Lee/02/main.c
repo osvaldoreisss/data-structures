@@ -3,35 +3,35 @@
 
 int main()
 {
-	int n, i, info;
+	int n, i, size;
 
 	do
 	{
-		//leitura do numero de dados que serao recebidos
+		// Getting the number of toys
 		scanf("%d", &n);
 
-		//se n = 0, parar 
+		// If N = 0, stop
 		if (n == 0)
 		{
 			break;
 		}
 
+		// Create a new matrioshka
 		newMatrioshka(n);
-        int result = 1;
-		//loop que le todos os n brinquedos da sequencia
+
+		// Reading all the toys
 		for (i = 0; i < n; i++)
 		{
-			scanf("%d ", &info);
-            if(result)
-            {
-			    result = addMatrioshka(info);
-            }
+			// Scanning the current size
+			scanf("%d ", &size);
+		    addMatrioshka(size);
         }
-        if (result) printf("Eh Matrioshka.\n"); else printf("Nao eh Matrioshka.\n");
+
+        // We print a message according to the status
+        if (isMatrioshka()) printf("Eh Matrioshka.\n"); else printf("Nao eh Matrioshka.\n");
 
 	}
 	while (n != 0);
-
 
 	return 0;
 }
