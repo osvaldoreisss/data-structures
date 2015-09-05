@@ -5,87 +5,91 @@
 
 int *ARMAZENAMENTO;
 int *MATRIOSHKA;
-int TOP = -1;
-int TOPAR = -1;
+int TOP = 0;
+int TOPAR = 0;
+int WAS_EMPTY = 0;
 
-void newMatrioshka()
+void newMatrioshka(int size)
 {
-	TOP = -1;
-    TOPAR = -1;
-    ARMAZENAMENTO = createStack();
-	MATRIOSHKA = createStack();
+	TOP = 0;
+    TOPAR = 0;
+    WAS_EMPTY = 0;
+    ARMAZENAMENTO = createStack(size);
+	MATRIOSHKA = createStack(size);
 }
 
 
 int addMatrioshka(int size)
 {
+	if(WAS_EMPTY) return 0;
     
 	// If we are trying to close a toy that is not on the top, we fail.
 	if (size > 0)
 	{
-		if (MATRIOSHKA[TOP] + size != 0)
+		if (top(MATRIOSHKA, TOP) + size != 0)
 		{
-			printf("Matrioshka falhou por fechar algo não no topo (t = %d, top = %d)ao adicionar %d\n", MATRIOSHKA[TOP], TOP, size);
-			printf("status:");
+			//printf("Matrioshka falhou por fechar algo não no topo (t = %d, top = %d)ao adicionar %d\n", top(MATRIOSHKA, TOP), TOP, size);
+			//printf("status:");
 			int i;
-			for (i = 0; i <= TOP; i++)
+			for (i = 0; i < TOP; i++)
 			{
-				printf("%d ", MATRIOSHKA[i]);
+				//printf("%d ", MATRIOSHKA[i]);
 			}
-			printf("\n");
+			//printf("\n");
 			return 0;
 		}
 		else
 		{
 			int oldTop = unstack(MATRIOSHKA, &TOP);
+			WAS_EMPTY = isEmpty(TOP);
 			unstack(ARMAZENAMENTO, &TOPAR);
-			printf("Unstacked %d. Top is now at %d\n", oldTop, TOP);
-			ARMAZENAMENTO[TOPAR] += abs(size);
+			//printf("Unstacked %d. Top is now at %d\n", oldTop, TOP);
+			ARMAZENAMENTO[TOPAR - 1] += abs(size);
 
-			if (TOP != -1 && ARMAZENAMENTO[TOPAR] >= abs(MATRIOSHKA[TOP]))
+			if (TOP != 0 && top(ARMAZENAMENTO, TOPAR) >= abs(top(MATRIOSHKA, TOP)))
 			{
-				printf("Matrioshka falhou por estouro ao adicionar %d \t já armazenado = %d \t topo = %d \n", size, ARMAZENAMENTO[TOPAR], MATRIOSHKA[TOP]);
-				printf("Status: ");
+				//printf("Matrioshka falhou por estouro ao adicionar %d \t já armazenado = %d \t topo = %d \n", size, top(ARMAZENAMENTO, TOPAR), top(MATRIOSHKA, TOP));
+				//printf("Status: ");
 				int i;
-				for (i = 0; i <= TOP; i++)
+				for (i = 0; i < TOP; i++)
 				{
-					printf("%d ", MATRIOSHKA[i]);
+					//printf("%d ", MATRIOSHKA[i]);
 				}
-				printf("\n");
-				printf("Tamanhos: ");
-				for (i = 0; i <= TOPAR; i++)
+				//printf("\n");
+				//printf("Tamanhos: ");
+				for (i = 0; i < TOPAR; i++)
 				{
-					printf("%d ", ARMAZENAMENTO[i]);
+					//printf("%d ", ARMAZENAMENTO[i]);
 				}
-				printf("\n");
+				//printf("\n");
 				return 0;
 			}
 			else
 			{
-				printf("Status: ");
+				//printf("Status: ");
 				int i;
-				for (i = 0; i <= TOP; i++)
+				for (i = 0; i < TOP; i++)
 				{
-					printf("%d ", MATRIOSHKA[i]);
+					//printf("%d ", MATRIOSHKA[i]);
 				}
-				printf("\n\n");
+				//printf("\n\n");
 				return 1;
 			}
 		}
 	}
 	else
 	{
-		printf("Stacking %d\n", size);
+		//printf("Stacking %d\n", size);
 		instack(MATRIOSHKA, size, &TOP);
-		printf("After stack, top = %d\n", TOP);
+		//printf("After stack, top = %d\n", TOP);
 		instack(ARMAZENAMENTO, 0, &TOPAR);
-		printf("Status: ");
+		//printf("Status: ");
 		int i;
-		for (i = 0; i <= TOP; i++)
+		for (i = 0; i < TOP; i++)
 		{
-			printf("%d ", MATRIOSHKA[i]);
+			//printf("%d ", MATRIOSHKA[i]);
 		}
-		printf("\n\n");
+		//printf("\n\n");
 		return 1;
 	}
 
