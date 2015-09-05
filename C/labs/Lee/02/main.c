@@ -16,7 +16,7 @@ int main()
 			break;
 		}
 
-		newMatrioshka();
+		newMatrioshka(n);
         int result = 1;
 		//loop que le todos os n brinquedos da sequencia
 		for (i = 0; i < n; i++)
