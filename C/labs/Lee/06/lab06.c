@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "splay.h"
+#include "lab06.h"
 
 Node* createTree()
 {
@@ -78,14 +78,19 @@ Node *findMinNode(Node *tree)
         return tree;
 }
 
-Node* removeNode(Node *tree, int k)
+Node* removeNode(Node *tree, int k, Node *original_tree)
 {
+    if (!tree->right && !tree->left && tree->data != k)
+    {
+        return splay(original_tree, tree->data);
+    }
+
     if (!tree) return NULL;
 
     if (k < tree->data)
-        tree->left = removeNode(tree->left, k);
+        tree->left = removeNode(tree->left, k, original_tree);
     else if (k > tree->data)
-        tree->right = removeNode(tree->right, k);
+        tree->right = removeNode(tree->right, k, original_tree);
     else
     {
         if (tree->left == NULL)
@@ -106,7 +111,7 @@ Node* removeNode(Node *tree, int k)
 
         tree->data = temp->data;
 
-        tree->right = removeNode(tree->right, temp->data);
+        tree->right = removeNode(tree->right, temp->data, original_tree);
     }
     return tree;
 
@@ -139,6 +144,16 @@ void inorder(Node *tree)
         inorder(tree->left);
         printf("%d ", tree->data);
         inorder(tree->right);
+    }
+}
+
+void preorder(Node *tree)
+{
+    if(tree)
+    {
+        printf("%d ", tree->data);
+        preorder(tree->left);
+        preorder(tree->right);
     }
 }
 
@@ -219,9 +234,6 @@ Node *splay(Node *root, int key)
     }
 }
  
-// The search function for Splay tree.  Note that this function
-// returns the new root of Splay Tree.  If key is present in tree
-// then, it is moved to root.
 Node *searchSplay(Node *root, int key)
 {
     return splay(root, key);
