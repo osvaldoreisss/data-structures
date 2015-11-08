@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 	int interactions, n, max_objects_per_node, max_levels, root_width, root_height, i;
 	int object_id, object_x, object_y, object_vx, object_vy, object_radius;
 
