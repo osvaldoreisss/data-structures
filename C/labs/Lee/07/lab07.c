@@ -9,17 +9,16 @@ int current_size;
 void create_heap(int size)
 {
 	int n = size / 2 + size % 2 + 1;
-	max_size = size;
 	heap = (node*) malloc(n * sizeof(node));
 	current_size = 0;
 }
 
 void insert_item(int data)
 {
-    if (current_size == max_size) return ;
 	// current_size < 2 is a special case
 	if (current_size < 2)
 	{
+		printf("Olar\n");
 		if(current_size == 1)
 		{
 			if(data < heap[1].left)
@@ -98,24 +97,9 @@ void swap(int *x, int *y)
 	*y = temp;
 }
 
-void print_heap_min()
+void print_heap()
 {
-	int i;
-	for (i = 1; i < current_size / 2 + current_size % 2; i++)
-	{
-	    printf("%d ", heap[i].left);
-	}
-	printf("\n");
-}
-
-void print_heap_max()
-{
-	int i;
-	for (i = 1; i < current_size / 2 + current_size % 2; i++)
-	{
-	    printf("%d ", heap[i].right);
-	}
-	printf("\n");
+	printf("Printing heap of size %d\n", current_size);
 }
 
 int get_min()
@@ -163,12 +147,13 @@ int get_max()
 	if (current_size == 0) return ;
 
 	int data = heap[1].right;
+	
 	int lastNode = current_size / 2 + current_size % 2;
 	int y;
 
 	if (current_size % 2)
 	{
-	    y = heap[lastNode].left;
+		y = heap[lastNode].left;
 		lastNode--;
 	}
 	else
@@ -183,7 +168,7 @@ int get_max()
 
 	while (ci <= lastNode)
 	{
-	    if (ci < lastNode && heap[ci].right < heap[ci + 1].right) ci++;
+		if (ci < lastNode && heap[ci].right < heap[ci + 1].right) ci++;
 		if (y >= heap[ci].right) break;
 
 		heap[i].right = heap[ci].right;
