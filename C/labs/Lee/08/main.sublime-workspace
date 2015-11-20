@@ -1,0 +1,557 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"insert_item"
+			],
+			[
+				"La",
+				"lastNode"
+			],
+			[
+				"curren",
+				"current_size"
+			],
+			[
+				"curre",
+				"current_size"
+			],
+			[
+				"cur",
+				"current_size"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"find",
+				"findMinNode"
+			],
+			[
+				"imo",
+				"imoveis"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"ty",
+				"types"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"fo",
+				"fonts"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"a",
+				"auxParent"
+			],
+			[
+				"au",
+				"aux"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"aux",
+				"auxParent"
+			],
+			[
+				"en",
+				"enqueue"
+			],
+			[
+				"E",
+				"EQueue"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"ol",
+				"oldTop"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"is",
+				"isEmpty"
+			],
+			[
+				"new",
+				"newTop"
+			],
+			[
+				"la",
+				"last"
+			],
+			[
+				"las",
+				"lastNode"
+			],
+			[
+				"prin",
+				"printList"
+			],
+			[
+				"poin",
+				"pointed_by_a"
+			],
+			[
+				"point",
+				"points_to_a"
+			],
+			[
+				"fin",
+				"findPointsTo"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"acc",
+				"access_tr"
+			],
+			[
+				"list_",
+				"list_tr"
+			],
+			[
+				"pri",
+				"printf	printf …"
+			],
+			[
+				"PRINT",
+				"printf"
+			],
+			[
+				"li",
+				"list_mtf"
+			],
+			[
+				"remo",
+				"remove_node"
+			],
+			[
+				"list",
+				"list_mtf"
+			],
+			[
+				"ac",
+				"access_mtf"
+			],
+			[
+				"custo",
+				"custo_mtf"
+			],
+			[
+				"po",
+				"points_to_a"
+			],
+			[
+				"swa",
+				"swap_nodes"
+			],
+			[
+				"arra",
+				"array_combine"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"tree",
+				"min_tree"
+			],
+			[
+				"from",
+				"from_queue"
+			],
+			[
+				"fla",
+				"flag_queue"
+			],
+			[
+				"sta",
+				"flag_stack"
+			],
+			[
+				"flag",
+				"flag_queue"
+			],
+			[
+				"fr",
+				"from_stack"
+			],
+			[
+				"fro",
+				"from_queue"
+			],
+			[
+				"fl",
+				"flag_stack"
+			],
+			[
+				"area",
+				"area_name"
+			],
+			[
+				"print",
+				"printf	printf …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/main.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/lab06.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/07/main.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/lab06.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/07/lab07.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/07/lab07.c",
+		"/home/fbidu/projetos/socorr/resources/views/home.blade.php",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input1",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input6",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input19",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input39",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input2",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input3",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input4",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/06/input5",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/05/main.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/03/main.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/splay_test.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/splay.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/splay.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/list.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/splay",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/libs/list.c",
+		"/home/fbidu/projetos/HouseRank/app/Http/routes.php",
+		"/var/www/html/Facilitas-API/app/Http/Kernel.php",
+		"/home/fbidu/projetos/HouseRank/app/Http/Kernel.php",
+		"/home/fbidu/projetos/HouseRank/app/Http/Controllers/Rank.php",
+		"/home/fbidu/projetos/socorr/resources/views/index.html",
+		"/home/fbidu/projetos/HouseRank/app/Http/Middleware/VerifyCsrfToken.php",
+		"/home/fbidu/projetos/HouseRank/app/Providers/RouteServiceProvider.php",
+		"/home/fbidu/projetos/HouseRank/app/Providers/AppServiceProvider.php",
+		"/home/fbidu/projetos/HouseRank/bootstrap/app.php",
+		"/home/fbidu/projetos/HouseRank/app/Providers/AuthServiceProvider.php",
+		"/home/fbidu/projetos/HouseRank/app/Providers/EventServiceProvider.php",
+		"/var/www/html/index.php",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/03/teste3",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/03/teste5",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/pilha.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/pilha.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/over.in",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/main.c",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/matrioshka.h",
+		"/home/fbidu/Etudes/Etudes/data-structures/C/labs/Lee/02/matrioshka.c",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/pilha.c",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/pilha.h",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/main.c",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/try.c",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/matrioshka.h",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/matrioshka.c",
+		"/home/fbidu/faculdade/mc202/lee2/labs/02/entrega/in",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab02/entrega/matrioshka.c",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab02/entrega/matrioshka.h",
+		"/home/fbidu/faculdade/mc202/lee2/list/list.h",
+		"/home/fbidu/faculdade/mc202/lee2/labs/01/lab01.c",
+		"/home/fbidu/faculdade/mc202/lee2/list/list.c",
+		"/home/fbidu/faculdade/mc202/lee/heap.c",
+		"/home/fbidu/faculdade/mc202/lee2/list/test_list.c",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab01/entrega/lista.c",
+		"/home/fbidu/Etudes/Etudes/Front/animations/transition_button.html",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab02/entrega/main.c",
+		"/home/fbidu/.vimrc",
+		"/home/fbidu/faculdade/mc202/lee2/lab01.c",
+		"/home/fbidu/faculdade/mc202/lee2/arq01.in",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab01/entrega/main.c",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab01/teste1",
+		"/home/fbidu/faculdade/mc202/lee/labs/lab01/ois",
+		"/home/fbidu/AndroidStudioProjects/Imagineme2/app/src/main/java/com/imagineme/imagineme/DetailActivity.java",
+		"/home/fbidu/AndroidStudioProjects/Imagineme2/app/src/main/java/com/imagineme/imagineme/DetailActivityFragment.java",
+		"/home/fbidu/AndroidStudioProjects/Imagineme2/app/src/main/java/com/imagineme/imagineme/CategoriesFragment.java",
+		"/home/fbidu/AndroidStudioProjects/Imagineme2/app/src/main/java/com/imagineme/imagineme/MainActivity.java",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/AndroidManifest.xml",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/java/com/example/android/sunshine/MainActivity.java",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/java/com/example/android/sunshine/DetailActivity.java",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/res/layout/list_item_forecast.xml",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/res/layout/fragment_main.xml",
+		"/home/fbidu/Etudes/Android/Sunshine/app/src/main/java/com/example/android/sunshine/ForecastFragment.java",
+		"/var/www/html/imagineme/app/Category.php",
+		"/var/www/html/imagineme/public/index.php",
+		"/var/www/html/imagineme/public/.htaccess",
+		"/var/www/html/imagineme/.env",
+		"/var/www/html/imagineme/app/Http/routes.php",
+		"/var/www/html/imagineme/storage/logs/laravel.log",
+		"/var/www/html/islandia/app/models/Post.php",
+		"/var/www/html/islandia/app/controllers/ByLawController.php",
+		"/var/www/html/islandia/app/routes.php",
+		"/var/www/html/islandia/app/views/reports/post.blade.php",
+		"/home/fbidu/Etudes/Etudes/PHP/chat/public/static/js/shared.js",
+		"/home/fbidu/Etudes/Etudes/PHP/chat/public/bower_components/handlebars/handlebars.js",
+		"/home/fbidu/Etudes/Etudes/PHP/chat/public/bower.json",
+		"/home/fbidu/Etudes/Etudes/PHP/chat/resources/views/index/index.blade.php",
+		"/home/fbidu/faculdade/mc202/gpt/etudes/bst/all.c",
+		"/var/www/html/islandia/app/views/navbar.blade.php",
+		"/var/www/html/islandia/app/views/home.blade.php",
+		"/home/fbidu/faculdade/mc202/gpt/labs/07/01-enunciado.in",
+		"/home/fbidu/faculdade/mc202/gpt/labs/07/01-enunciado.out",
+		"/home/fbidu/faculdade/mc202/gpt/labs/07/09-vazia.in",
+		"/home/fbidu/faculdade/mc202/gpt/labs/07/09-vazia.out",
+		"/home/fbidu/faculdade/mc202/gpt/labs/07/main.c",
+		"/home/fbidu/faculdade/mc202/gpt/labs/05/02.out",
+		"/home/fbidu/faculdade/mc202/gpt/labs/05/02.in",
+		"/home/fbidu/faculdade/mc202/gpt/labs/05/main.c",
+		"/home/fbidu/faculdade/mc202/gpt/labs/03/lab3.c",
+		"/home/fbidu/faculdade/mc202/gpt/labs/04/lab4.c",
+		"/var/www/html/lims/tests/AreaRepositoryTest.php",
+		"/var/www/html/lims/tests/BrandRepositoryTest.php",
+		"/var/www/html/lims/app/Lactad/Repositories/DBAreaRepository.php",
+		"/var/www/html/lims/app/Lactad/Repositories/DbBrandRepository.php",
+		"/var/www/html/lims/tests/TestCase.php",
+		"/var/www/html/lims/app/Lactad/Repositories/AreaRepositoryInterface.php",
+		"/var/www/html/lims/tests/ProductRepositoryTest.php",
+		"/var/www/html/lims/tests/SupplierRepositoryTest.php",
+		"/var/www/html/lims/tests/ProductTypeRepositoryTest.php",
+		"/var/www/html/lims/tests/ExampleTest.php",
+		"/home/fbidu/faculdade/mc202/lee/listas/lista1-1.c",
+		"/home/fbidu/faculdade/mc202/gpt/labs/02/main.c",
+		"/home/fbidu/faculdade/mc202/lee/listas/lista1-2.c"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"esq",
+			"right",
+			"left",
+			"swap",
+			"//printf",
+			"printf",
+			"TOPAR",
+			"ARMAZENAMENTO",
+			"//printf",
+			"printf",
+			"//printf",
+			"12",
+			"printf",
+			"matrioshka",
+			"printf",
+			"\"Cost = %d\"",
+			"prod",
+			"else",
+			"tree",
+			"brandRepository"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"right",
+			"left",
+			"esq",
+			"printf",
+			"//printf",
+			"TOP_STORAGE",
+			"STORAGE",
+			"printf",
+			"//printf",
+			"printf",
+			"//printf",
+			"\"Cost = %d\\n\"",
+			"areaRepository"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rout",
+				"app/Http/routes.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 294.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

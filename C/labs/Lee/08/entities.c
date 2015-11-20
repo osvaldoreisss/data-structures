@@ -4,7 +4,7 @@
 
 ball* entity_createBall(int id, double x, double y, double vx, double vy, double radius)
 {
-    ball *created = malloc(sizeof(ball));
+    ball *created = (ball*) malloc(sizeof(ball));
 
     if (created)
     {

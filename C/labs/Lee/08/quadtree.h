@@ -1,10 +1,11 @@
 #ifndef QUADTREE_H_INCLUDED_
-#define QUADTREE_H_INCLUDED_ 
+#define QUADTREE_H_INCLUDED_
 
 #include "entities.h"
 #include "list.h"
 
-struct _qnode {
+struct _qnode
+{
    struct _qnode *(children[4]); // Vetor de ponteiros para os filhos
    list *objects; // Lista de objetos contidos no nó
    int x, y, w, h; // Retângulo delimitador da região do nó
@@ -59,7 +60,7 @@ void qtree_destroyNodes(qnode *root);
 
 /*
  * @nome: qtree_getIndex
- * @descr: Descobre o índice do filho que melhor comporta 
+ * @descr: Descobre o índice do filho que melhor comporta
  * a região delimitada por (x, y, w, h).
  *
  * @param:
