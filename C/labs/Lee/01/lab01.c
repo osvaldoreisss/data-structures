@@ -2,6 +2,8 @@
 * RA: 150556
 * Laboratorio 01 - O problema do acesso à lista */
 
+/*Colaboração de osvaldoreisss
+
 #include <stdio.h>
 #include <stdlib.h>
 
